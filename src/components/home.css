@@ -1,0 +1,66 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+/* Root Vars */
+:root{
+    --primary-color: #5484E4;
+    --secondary-color: #5D71E3;
+    --tirtiery-color: #7762D1;
+    --primary-font: "Gochi Hand", cursive;
+}
+
+.home{
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    position:relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    max-width: 540px;
+    text-align: center;
+}
+
+.hello{
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-family: var(--primary-font);
+    font-size: 50px;
+}
+
+.home-name{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: 70px;
+}
+
+@media (max-width: 768px) {
+    .hello {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hello-name {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+.section-title{
+    margin-left: 16rem;
+    margin-bottom: 0.2rem;
+    color: var(--primary-color);
+    margin-top: -5rem;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+}

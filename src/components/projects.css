@@ -1,0 +1,67 @@
+.school-cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr; /* Default: 3 columns for large screens */
+    grid-gap: 4rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: max-content;
+}
+
+/* Responsive layout for screens smaller than 768px */
+@media (max-width: 768px) {
+    .school-cards {
+        grid-template-columns: 1fr 1fr; /* Change to 2 columns for medium screens */
+        grid-gap: 2rem; /* Reduce the gap between cards */
+    }
+}
+
+/* Responsive layout for mobile devices */
+@media (max-width: 500px) {
+    .school-cards {
+        grid-template-columns: 1fr; /* Change to 1 column for small screens */
+    }
+}
+
+h4{
+    padding-bottom: 0.25rem;
+    font-weight: 600;
+}
+.github{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+.school-data{
+    margin: 30px auto;
+    width: 300px;
+    height: 220px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    background-color: #4a4aa7;
+    -webkit-transition: all 0.1s linear;
+            transition: all 0.1s linear;
+}
+
+.school-data:hover{
+    -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+  margin-top: 0;
+}
+
+.school{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
