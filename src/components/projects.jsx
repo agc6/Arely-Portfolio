@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import "./home.css";
 import { VscGithub } from "react-icons/vsc";
+import { BiLogoFigma } from "react-icons/bi";
 
 const Projects = () => {
     return(
@@ -36,8 +37,17 @@ const Projects = () => {
             Pomodoro Timer with an integrated To-Do List
             designed to help users manage their time effectively while staying organized with their tasks. 
                  <div className="github"><a href="https://github.com/agc6/Pomodoro-To-Do"
-              target="_blank" rel="noopener noreferrer"><VscGithub /></a> </div></div>
-                 
+              target="_blank" rel="noopener noreferrer"><VscGithub /></a> </div>
+              </div>         
+                 </div>
+                 <div className="school-data">
+                 <div className="school">
+            <h3>Visionare</h3>
+            <h4>Made with: Figma.</h4>
+            A creative mobile app concept designed to help users craft and share digital scrapbooks. 
+            <div className="github"><a href="https://www.figma.com/proto/PqZCAQth3O2VEKz8HWR3cK/Visionare?node-id=0-1&t=wMdC0Bp9BgIh5rkk-1"
+              target="_blank" rel="noopener noreferrer"><BiLogoFigma /></a> </div>
+                 </div>
                  </div>
                  </div>
         </section>

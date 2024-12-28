@@ -34,6 +34,10 @@ h4{
     text-align: end;
 }
 
+a:visited{
+    color: aliceblue;
+}
+
 .school-data{
     margin: 30px auto;
     width: 300px;
@@ -49,7 +53,8 @@ h4{
             transition: all 0.1s linear;
 }
 
-.school-data:hover{
+.school-data:hover,
+.figma-data:hover{
     -webkit-transform: scale(1.05);
        -moz-transform: scale(1.05);
         -ms-transform: scale(1.05);
@@ -63,5 +68,29 @@ h4{
     margin-top: 20px;
     margin-right: 20px;
     color: white;
+}
+
+.figma{
+    margin-left: 16rem;
+    margin-bottom: 0.2rem;
+    color: var(--primary-color);
+    margin-top: 3rem;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+}
+
+.figma-data{
+    margin: 30px auto;
+    width: 300px;
+    height: 220px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    background-color: #4a4aa7;
+    -webkit-transition: all 0.1s linear;
+            transition: all 0.1s linear;
 }
 
