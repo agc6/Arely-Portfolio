@@ -64,3 +64,15 @@
     font-family: var(--primary-font);
     font-size: 2rem;
 }
+
+@media (max-width: 768px) {
+    .section-title {
+        margin-left: 105px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section-title {
+       margin-left: 105px;
+    }
+}
