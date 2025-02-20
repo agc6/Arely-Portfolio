@@ -30,6 +30,18 @@ const Projects = () => {
               target="_blank" rel="noopener noreferrer"><VscGithub /></a> </div>
               </div>
                  </div>
+
+                 <div className="school-data">
+            <div className="school">
+            <h3>The Job Vault</h3>
+            <h4>Made with: ReactJS, Js, and Tailwind CSS.</h4>
+            A job application tracker that allows users to
+             organize, track, and manage job applications efficiently. <br></br>
+             <div className="github"><a href="https://github.com/agc6/The-Job-Vault"
+              target="_blank" rel="noopener noreferrer"><VscGithub /></a> </div>
+              </div>
+                 </div>
+
                  <div className="school-data">
             <div className="school">
             <h3>Pomodoro Timer</h3>
