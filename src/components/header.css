@@ -130,6 +130,7 @@
 
 .s-ul .link a {
     text-decoration: none;
+    color: inherit;
 }
 .hamburger{
     position: fixed;

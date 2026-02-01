@@ -59,7 +59,7 @@ const Header = () => {
                     <li className="link">
                         <a href="https://github.com/agc6" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </li>
-                    <li>
+                    <li className="link">
                         <a href="#contact-section" onClick={scrollToContact}>Contact</a> {/* Scroll in the sidebar too */}
                     </li>
                 </ul>
